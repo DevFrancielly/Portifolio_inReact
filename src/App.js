@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Projects from "./components/Projectss";
 import Skills from "./components/Skills";
 import Certifications from "./components/Certifications";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Certifications/>
       <Contacts/>
       <Footer/>
+      <SpeedInsights />
     </div>
   );
 };
